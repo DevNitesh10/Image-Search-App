@@ -1,6 +1,6 @@
 # Image Search App
 
-This is a simple React application that allows users to search for images using the Unsplash API and display the results in a grid. Users can also filter images by predefined categories and navigate through the pages of search results.
+This is a simple React + Vite application that allows users to search for images using the Unsplash API and display the results in a grid. Users can also filter images by predefined categories and navigate through the pages of search results.
 
 ## Table of Contents
 
