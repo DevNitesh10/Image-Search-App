@@ -9,6 +9,7 @@ This is a simple React + Vite application that allows users to search for images
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
+- [Note](#Note)
 
 ## Features
 
@@ -49,11 +50,14 @@ Hover over images to see a subtle animation.
 ## Contributing
 Contributions are welcome! If you find a bug or have a suggestion for improvements, feel free to open an issue or create a pull request.
 
-Fork the repository.
-Create a new branch: git checkout -b feature/your-feature-name.
-Make your changes and commit them: git commit -m 'Add some feature'.
-Push to the branch: git push origin feature/your-feature-name.
-Create a pull request describing your changes.
+- Fork the repository.
+- Create a new branch: git checkout -b feature/your-feature-name.
+- Make your changes and commit them: git commit -m 'Add some feature'.
+- Push to the branch: git push origin feature/your-feature-name.
+- Create a pull request describing your changes.
 
 ## License
 This project is licensed under the MIT License.
+
+## Note:
+- Please make sure to replace placeholders like `your-username`, `your-api-key`, and adjust the content as needed to accurately represent your project.
