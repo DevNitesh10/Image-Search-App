@@ -1,26 +1,34 @@
 :root {
+  /* Global font styles */
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+
+  /* Spacing variables */
   --default-spacing: 10px;
   --default-margin: 1rem;
   --medium-margin: 3rem;
   --larger-margin: 5rem;
+
+  /* Primary color */
   --primary-color: #7676d7;
 }
 
 * {
+  /* Box sizing and reset for all elements */
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 body {
+  /* Global text color */
   color: var(--primary-color);
 }
 
-/* common css starts */
+/* Common CSS for layout and styling */
 
+/* Container styles */
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -30,12 +38,14 @@ body {
   min-height: 100vh;
 }
 
+/* Title styles */
 .title {
   text-align: center;
   margin-top: var(--default-margin);
   color: #7676d7;
 }
 
+/* Button styles */
 .buttons {
   display: flex;
   justify-content: center;
@@ -48,21 +58,22 @@ body {
 .buttons .btn,
 .buttons .btn:active,
 .buttons .btn:focus {
+  /* Button appearance and interaction styles */
   background-color: var(--primary-color);
   box-shadow: none;
   outline: none;
   border: none;
 }
 
+/* Error message styles */
 .error-msg {
   color: #ff0000;
   text-align: center;
 }
 
-/* common css ends */
+/* Search section styles */
 
-/* search section starts */
-
+/* Search container */
 .search-section {
   display: flex;
   justify-content: center;
@@ -70,19 +81,15 @@ body {
   margin-top: var(--default-margin);
 }
 
+/* Search input styles */
 .search-section .search-input {
   min-width: 500px;
   padding: var(--default-spacing);
 }
 
-.search-section .search-btn {
-  margin-left: var(--default-spacing);
-}
+/* Filters section styles */
 
-/* search section ends */
-
-/* filters section starts */
-
+/* Filters container */
 .filters {
   display: flex;
   justify-content: center;
@@ -92,6 +99,7 @@ body {
   margin-top: var(--default-margin);
 }
 
+/* Filter buttons styles */
 .filters>* {
   padding: 5px 10px;
   background: #7676d7;
@@ -100,10 +108,9 @@ body {
   cursor: pointer;
 }
 
-/* filters section ends */
+/* Images section styles */
 
-/* images section starts */
-
+/* Images container */
 .images {
   margin-top: var(--medium-margin);
   display: grid;
@@ -113,6 +120,7 @@ body {
   align-items: center;
 }
 
+/* Image styles */
 .images .image {
   width: 200px;
   height: 200px;
@@ -123,19 +131,21 @@ body {
   transition: transform 0.5s;
 }
 
+/* Hover effect on images */
 .images .image:hover {
   transform: translateY(-3px);
 }
 
-/* images section ends */
-
 /* Responsive adjustments */
+
+/* Adjust grid columns on medium screens */
 @media (max-width: 768px) {
   .images {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
+/* Adjust search input and grid columns on small screens */
 @media (max-width: 480px) {
   .search-section .search-input {
     width: 100%;
